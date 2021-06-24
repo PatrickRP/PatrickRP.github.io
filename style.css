@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: linear-gradient(to top, #0066cc -31%, #800000 100%);
+    background: linear-gradient(to top, #0066cc -20%, #942020 80%);
 }
 
 header{
@@ -11,7 +11,7 @@ header{
     
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
+    color: black;
 }
 
 .foto{
@@ -31,19 +31,7 @@ ul{
 h2{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(250, 240, 240);;
-}
-
-.paragrafos{
-    text-align: center;
-    font-family: cursive, sans-serif;
     color: black;
-    outline-style: inset;
-    outline-width: 0.2em;
-    outline-color:black;
-    margin-left: 20%;
-    margin-right: 20%;
-
 }
 
 .conteudoPrincipal{
@@ -59,9 +47,45 @@ h2{
     outline-color: rgba(20, 0, 0, 0.911);
     margin-right: 20%;
     margin-left: 20%;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background: #181818;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    font-family: cursive, sans-serif;
+}
+
+.footer-col{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin: 1%;
+}
+
+.footer-col:nth-child(2){
+    width: 30%;
+    margin-left: 5%;
+}
+
+.footer-col:nth-child(3){
+    width: 20%;
 }
 
 .logo{
     width: 20px;
     padding: 1.5px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: black;
 }
