@@ -1,15 +1,20 @@
 body{
     margin: 0;
+    background: linear-gradient(to top, #0066cc -31%, #800000 100%);
 }
 
-.backgraund{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background:   #1C1C1C;
+header{
+    display: block;
 }
 
-#foto{
+.cabecalho{
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.foto{
     width: 15%;
     border-radius: 50%;
     display: block;
@@ -23,47 +28,40 @@ ul{
     padding: 0;
 }
 
-.logo{
-    width: 30px;
-    margin: 5px;
-}
-
-.name, h2{
+h2{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blanchedalmond;
+    color: rgb(250, 240, 240);;
 }
 
 .paragrafos{
     text-align: center;
     font-family: cursive, sans-serif;
-    color: blanchedalmond;
+    color: black;
+    outline-style: inset;
+    outline-width: 0.2em;
+    outline-color:black;
+    margin-left: 20%;
+    margin-right: 20%;
+
 }
 
-.hardskill{
+.conteudoPrincipal{
+    
+}
+
+.bloco{
     text-align: center;
     font-family: cursive, sans-serif;
-    color: blanchedalmond;
+    color: black;
+    outline-style: inset;
+    outline-width: 0.2em;
+    outline-color: rgba(20, 0, 0, 0.911);
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
-.softskill{
-    text-align: center;
-    font-family: cursive, sans-serif;
-    color: blanchedalmond;
-}
-
-.links-pessoal{
-    padding: 20px 25px 20px 25px;
-    text-align: center;    
-    color: blanchedalmond;
-}
-
-.link{
-    display: inline-block;
-    margin: 10px;
-}
-
-a:hover, a:link{
-    color: whitesmoke;
-    text-decoration: none;
+.logo{
+    width: 20px;
+    padding: 1.5px;
 }
