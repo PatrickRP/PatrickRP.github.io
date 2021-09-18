@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pr-br">
 <head>
   <meta charset="UTF-8">
@@ -13,14 +12,6 @@
     </p>
   </header>
   <section>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Description</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Social Media</a></li>
-      </ul>
-    </nav>
   </section>
   <footer>
   </footer>
