@@ -1,8 +1,3 @@
-<html lang="pr-br">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
   <header>
     <h1>Patrick Rodrigues Paredes</h1>
